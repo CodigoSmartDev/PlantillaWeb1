@@ -4,13 +4,13 @@ if($_SERVER['REQUEST_METOD'] != 'POST'){
     header("Location: index.html");
 }
 
-require 'phpmailer/PHPmailer.php';
-require 'phpmailer/Exepcion.php';
+require 'phpmailer/PHPMailer.php';
+require 'phpmailer/Exception.php';
 
 use PHPMailer\PHPMailer\PHPMailer;
 
 $nombre = $_POST['name'];
-$mail = $_POST['email'];
+$mail = $_POST['mail'];
 $asunto = $_POST['asunto'];
 $empresa = $_POST['message'];
 $foto = $_FILES['foto']; // $foto['tmp_name'];
