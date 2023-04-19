@@ -595,7 +595,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Portfolio Section
 --------------------------------*/
 #portfolio {
-  background: #fff;
+  background:  url(../img/bg-portfolio.jpg) fixed center center;
+  background-size: cover;
   padding: 80px 0;
 }
 
@@ -719,23 +720,24 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Team Section
 --------------------------------*/
 #team {
-  background: #fff;
+  background: #c2bfbf;
   padding: 80px 0 60px 0;
 }
 
 #team .member {
   text-align: center;
+  justify-content: center;
   margin-bottom: 20px;
 }
 
 #team .member .pic {
   margin-bottom: 15px;
   overflow: hidden;
-  height: 260px;
+  height: 340px;
 }
 
 #team .member .pic img {
-  max-width: 100%;
+  max-width: 20%;
 }
 
 #team .member h4 {
