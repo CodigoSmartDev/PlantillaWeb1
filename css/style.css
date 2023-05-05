@@ -427,8 +427,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 	position:fixed;
 	width:60px;
 	height:60px;
-	bottom:40px;
-	right:40px;
+	bottom:5px;
+	right:5px;
 	background-color:#25d366;
 	color:#FFF;
 	border-radius:50px;
