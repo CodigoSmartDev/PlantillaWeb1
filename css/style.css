@@ -8,6 +8,8 @@
 
 }
 
+
+
 body {
   background: #fff;
   color: #666666;
@@ -502,7 +504,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Team Section
 --------------------------------*/
 #team {
-  background: #524f4f;
+  background: rgb(247,245,241);
+background: linear-gradient(180deg, rgba(247,245,241,1) 9%, rgba(233,231,226,1) 13%, rgba(200,197,188,1) 26%, rgba(119,115,116,1) 46%, rgba(79,74,79,1) 61%);
   padding: 80px 0 60px 0;
 }
 
@@ -522,7 +525,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #team .member .pic {
-  /* margin-bottom: 15px; */
   overflow: hidden;
 
   height: 50%;
@@ -547,7 +549,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-top: 15px;
 }
 
-#team .member .social a {
+#team .member .social a , h4, span{
   color: #b3b3b3;
 }
 
